@@ -25,16 +25,6 @@ This project is a Spring Boot application that demonstrates CRUD operations for 
     CREATE DATABASE category_product_db;
     ```
 
-    Update `src/main/resources/application.properties` with your MySQL database configuration:
-
-    ```properties
-    spring.datasource.url=jdbc:mysql://localhost:3306/category_product_db
-    spring.datasource.username=your_username
-    spring.datasource.password=your_password
-    spring.jpa.hibernate.ddl-auto=update
-    spring.jpa.show-sql=true
-    spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5Dialect
-    ```
 
 3. **Build and Run the Application**
 
